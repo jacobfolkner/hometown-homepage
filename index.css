@@ -5,6 +5,7 @@ html, body {
     border-radius: 9px;
     text-align: center;
     color: #C05746;
+    font-family: 'Lora', serif;
 }
 
 #hero {
@@ -24,7 +25,7 @@ html, body {
     font-weight: bold;
     text-shadow: 1px 1px 1px #000000;
     background-color: #D0E3C4;
-    width: 690px;
+    width: 50%;
     padding: 6px 15px 6px 15px;
     border-radius: 9px;
     margin-bottom: 0;
@@ -36,16 +37,17 @@ html, body {
     text-shadow: 1px 1px 1px #000000;
     background-color: #D0E3C4;
     padding: 6px 15px 6px 15px;
-    border-radius: 9px;  
+    border-radius: 9px; 
+    width: 25%;
 }
 
 .section-header {
     font-size: 3rem;
     font-weight: bold;
     text-shadow: 1px 1px 1px #000000; 
-    margin: 0 0 25px 0;; 
+    margin: 0 auto 25px auto;; 
     padding: 30px 0px;
-
+    width: 50%;
 }
 
 #activities {
@@ -63,7 +65,7 @@ html, body {
 }
 
 .activity-image {
-    width: 200px;
+    width: 70%;
     border-radius: 20px;
 }
 
@@ -73,7 +75,9 @@ html, body {
 }
 
 .activity-text {
-    width: 200px;
+    font-size: .93rem;
+    margin: 0 auto;
+    width: 20vw;
     text-align: center;
     text-shadow: 0px 0px 1px #000000
 }
@@ -101,7 +105,7 @@ html, body {
 }
 
 #guide-image {
-    width: 200px;
+    width: 10vw;
     border-radius: 20px;
     padding: 20px;
     border-radius: 30px;
