@@ -1,0 +1,116 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 4px solid #C05746;
+    border-radius: 9px;
+    text-align: center;
+    color: #C05746;
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url("Beulah-Park-town-plaque.webp");
+    background-size: cover;
+    background-position-y: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.title {
+    font-size: 5rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: #D0E3C4;
+    width: 690px;
+    padding: 6px 15px 6px 15px;
+    border-radius: 9px;
+    margin-bottom: 0;
+}
+
+.title-description {
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: #D0E3C4;
+    padding: 6px 15px 6px 15px;
+    border-radius: 9px;  
+}
+
+.section-header {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000000; 
+    margin: 0 0 25px 0;; 
+    padding: 30px 0px;
+
+}
+
+#activities {
+    width: 100%;
+    height: 50vh;
+    background-color: #D0E3C4;
+    
+
+}
+
+#guide {
+    width: 100%;
+    height: 50vh;
+    background-color: #ADC698
+}
+
+.activity-image {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.activity-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.activity-text {
+    width: 200px;
+    text-align: center;
+    text-shadow: 0px 0px 1px #000000
+}
+
+.activity-title {
+    text-shadow: 0px 0px 1px #000000;
+    font-size: 1.5rem;
+}
+
+#guide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#guide-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 70%;
+    background-color:#D0E3C4;
+    border-radius: 10px;
+}
+
+#guide-image {
+    width: 200px;
+    border-radius: 20px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+#guide-intro {
+    width: 50%;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    text-shadow: 0px 0px 1px #000000;
+}
