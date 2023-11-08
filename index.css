@@ -102,6 +102,7 @@ html, body {
     height: 70%;
     background-color:#D0E3C4;
     border-radius: 10px;
+    box-shadow: 5px 5px 1px #C05746;
 }
 
 #guide-image {
